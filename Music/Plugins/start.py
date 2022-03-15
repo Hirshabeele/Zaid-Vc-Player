@@ -53,7 +53,7 @@ Powered By [Sᴀᴀʏɢᴀ](t.me/SaYgaruushka2244) ...
                         "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/Somalibots"
                     ),
                     InlineKeyboardButton(
-                        "ᴄᴏᴅᴇ Oᴡɴᴇʀ👾", url=f"https://t.me/SaYgaruushka2244"
+                        "ᴄᴏᴅᴇ Oᴡɴᴇʀ👾", url=f"https://t.me/Maahirmohamed"
                     )
                 ],
                 [
@@ -95,7 +95,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/ITZ-ZAID/Zaid-Vc-Player")
+                        " Owner", url=f"https://t.me/Maahirmohamed"
                 ]
             ]
         ),
