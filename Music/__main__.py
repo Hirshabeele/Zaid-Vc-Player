@@ -29,7 +29,7 @@ print(f"[INFO]: ASSISTANT STARTED AS {ASSNAME}!")
 async def load_start():
     restart_data = await clean_restart_stage()
     if restart_data:
-        print("[INFO]: SENDING RESTART STATUS TO SOMALI SERVER")
+        print("[INFO]: SENDING RESTART STATUS TO ZAID SERVER")
         try:
             await app.edit_message_text(
                 restart_data["chat_id"],
@@ -53,7 +53,7 @@ async def load_start():
             pass     
     await app.send_message(LOG_GROUP_ID, "Music Bot Started")
     await client.send_message(LOG_GROUP_ID, "Assistant Of Somali Music Started")
-    print("[INFO]: STARTED THE SOMALI BOT AND SENDING THE INFO TO SOMALI SERVER")
+    print("[INFO]: STARTED THE ZAID BOT AND SENDING THE INFO TO ZAID SERVER")
     
    
 loop = asyncio.get_event_loop()
